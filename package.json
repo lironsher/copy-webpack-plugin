@@ -1,8 +1,8 @@
 {
-  "name": "copy-webpack-plugin",
+  "name": "copy-webpack-plugin-array",
   "version": "4.6.0",
   "description": "Copy files && directories with webpack",
-  "author": "Len Boyette",
+  "author": "Len Boyette + Liron Sher",
   "license": "MIT",
   "main": "dist/index.js",
   "engines": {
@@ -43,9 +43,9 @@
     "rimraf": "^2.6.2",
     "standard-version": "^4.2.0"
   },
-  "homepage": "https://github.com/webpack-contrib/copy-webpack-plugin",
-  "bugs": "https://github.com/webpack-contrib/copy-webpack-plugin/issues",
-  "repository": "https://github.com/webpack-contrib/copy-webpack-plugin.git",
+  "homepage": "https://github.com/lironsher/copy-webpack-plugin",
+  "bugs": "https://github.com/lironsher/copy-webpack-plugin/issues",
+  "repository": "https://github.com/lironsher/copy-webpack-plugin.git",
   "keywords": [
     "webpack",
     "plugin",

@@ -10,14 +10,14 @@
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <h1>Copy Webpack Plugin</h1>
-  <p>Copies individual files or entire directories to the build directory</p>
+  <h1>Copy Webpack Plugin - <span style='color:blue;'> Fork with support for files array </span></h1>
+  <p>Copies individual files <span style='color:blue;'>Or Array </span> or entire directories to the build directory</p>
 </div>
 
 <h2 align="center">Install</h2>
 
 ```bash
-npm i -D copy-webpack-plugin
+npm i -D copy-webpack-plugin-Array
 ```
 
 <h2 align="center">Usage</h2>
@@ -51,7 +51,7 @@ Or, in case of just a `from` with the default destination, you can also use a `{
 
 |Name|Type|Default|Description|
 |:--:|:--:|:-----:|:----------|
-|[`from`](#from)|`{String\|Object}`|`undefined`|Globs accept [minimatch options](https://github.com/isaacs/minimatch)|
+|[`from`](#from)|`{String\|Object\|Array}`|`undefined`|Globs accept [minimatch options](https://github.com/isaacs/minimatch)|
 |[`fromArgs`](#fromArgs)|`{Object}`|`{ cwd: context }`|See the [`node-glob` options](https://github.com/isaacs/node-glob#options) in addition to the ones below|
 |[`to`](#to)|`{String\|Object}`|`undefined`|Output root if `from` is file or dir, resolved glob path if `from` is glob|
 |[`toType`](#toType)|`{String}`|``|[toType Options](#totype)|
