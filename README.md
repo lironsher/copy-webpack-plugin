@@ -17,14 +17,14 @@
 <h2 align="center">Install</h2>
 
 ```bash
-npm i -D copy-webpack-plugin-Array
+npm i -D copy-webpack-plugin-array
 ```
 
 <h2 align="center">Usage</h2>
 
 **webpack.config.js**
 ```js
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin-array')
 
 const config = {
   plugins: [
